@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: lime;
+ 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#filter {
+  background-color: #000000bb;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contacts {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.contact img {
+  height: 150px;
+  max-width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+.contact {
+  font-size: 15px;
+  max-width: 250px;
+}
+
+.modalForm {
+  margin: 0 auto;
+}
+.modalForm input {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #131010b6;
+  margin: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+.modalForm button {
+  font-size: 20px;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add-contact button {
+  padding: 4px;
+  background-color: #06fc50b4;
+  margin-left: 5px;
+}
